@@ -20,7 +20,7 @@ import static xyz.techfjord.usercenter.constant.UserConstant.ADMIN_ROLE;
 import static xyz.techfjord.usercenter.constant.UserConstant.USER_LOGIN_STATE;
 
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/api/user")
 public class UserController {
 
     @Resource
